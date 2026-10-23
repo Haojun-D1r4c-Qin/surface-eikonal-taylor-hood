@@ -1,0 +1,13 @@
+[mobius n=8 TH-curvature exact] cells=1024 dofs=13760 hmax=0.3174 setup=0.1s
+k=  1 a=      10 S=       10 nwt= 6 inc=2.807e+00 eu=1.142e-01 eg=9.752e-01 einf=8.521e-02 maxu=0.91485 |psi|rms=5.771e+00 |Z.n|=1.481e-03 ||Z.n|-|2H|u|=9.986e-01 |grad(u-uh)|=8.406e-01
+k=  2 a=      20 S=       30 nwt= 4 inc=9.297e-02 eu=2.167e-02 eg=4.498e-01 einf=1.845e-02 maxu=0.98155 |psi|rms=1.733e+01 |Z.n|=1.521e-03 ||Z.n|-|2H|u|=1.025e+00 |grad(u-uh)|=2.134e-01
+k=  3 a=      40 S=       70 nwt= 3 inc=1.676e-02 eu=4.913e-03 eg=2.673e-01 einf=4.319e-03 maxu=0.99568 |psi|rms=4.043e+01 |Z.n|=1.528e-03 ||Z.n|-|2H|u|=1.030e+00 |grad(u-uh)|=5.203e-02
+k=  4 a=      80 S=      150 nwt= 3 inc=3.684e-03 eu=1.230e-03 eg=1.699e-01 einf=1.099e-03 maxu=0.99890 |psi|rms=8.666e+01 |Z.n|=1.529e-03 ||Z.n|-|2H|u|=1.030e+00 |grad(u-uh)|=1.353e-02
+k=  5 a=     160 S=      310 nwt= 3 inc=9.096e-04 eu=3.201e-04 eg=8.297e-02 einf=2.889e-04 maxu=0.99971 |psi|rms=1.791e+02 |Z.n|=1.529e-03 ||Z.n|-|2H|u|=1.031e+00 |grad(u-uh)|=3.618e-03
+k=  6 a=     320 S=      630 nwt= 2 inc=2.386e-04 eu=8.186e-05 eg=2.792e-02 einf=7.374e-05 maxu=0.99993 |psi|rms=3.640e+02 |Z.n|=1.530e-03 ||Z.n|-|2H|u|=1.031e+00 |grad(u-uh)|=9.676e-04
+k=  7 a=     640 S=     1270 nwt= 2 inc=6.083e-05 eu=2.228e-05 eg=7.764e-03 einf=1.860e-05 maxu=0.99998 |psi|rms=7.338e+02 |Z.n|=1.530e-03 ||Z.n|-|2H|u|=1.031e+00 |grad(u-uh)|=3.693e-04
+    MUMPS failure INFOG(1:2)=(-9, 353428) (attempt 0, quasi=False)
+k=  8 a=1.28e+03 S=     2550 nwt= 2 inc=1.519e-05 eu=1.009e-05 eg=2.491e-03 einf=4.819e-06 maxu=1.00000 |psi|rms=1.473e+03 |Z.n|=1.530e-03 ||Z.n|-|2H|u|=1.031e+00 |grad(u-uh)|=2.937e-04
+k=  9 a=2.56e+03 S=     5110 nwt= 2 inc=3.779e-06 eu=8.675e-06 eg=1.638e-03 einf=1.387e-06 maxu=1.00000 |psi|rms=2.953e+03 |Z.n|=1.531e-03 ||Z.n|-|2H|u|=1.031e+00 |grad(u-uh)|=2.883e-04
+k= 10 a=4.89e+03 S=    1e+04 nwt= 2 inc=9.268e-07 eu=8.550e-06 eg=1.569e-03 einf=5.455e-07 maxu=1.00000 |psi|rms=5.783e+03 |Z.n|=1.531e-03 ||Z.n|-|2H|u|=1.031e+00 |grad(u-uh)|=2.879e-04
+done: outer=10 newton=29 time=5.8s

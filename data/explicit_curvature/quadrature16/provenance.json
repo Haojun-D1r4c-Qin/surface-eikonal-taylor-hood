@@ -1,0 +1,35 @@
+{
+  "driver_sha256": "c96aaede0bac57d8f0293cab6882c904f6609e7c885871d32976c5d4ca2485cb",
+  "configuration": {
+    "n": [
+      2,
+      4,
+      8
+    ],
+    "geometry": [
+      2,
+      3
+    ],
+    "modes": [
+      "TH",
+      "TH-curvature"
+    ],
+    "S_max": 10000.0,
+    "quadrature": 16,
+    "error_quadrature": 20,
+    "label": "reproduced"
+  },
+  "python": "3.11.6 | packaged by conda-forge | (main, Oct  3 2023, 10:40:35) [GCC 12.3.0]",
+  "dolfinx": "0.10.0",
+  "basix": "0.10.0",
+  "ufl": "2025.2.0",
+  "PETSc": [
+    3,
+    24,
+    0
+  ],
+  "mpi_processes": 1,
+  "OPENBLAS_NUM_THREADS": 1,
+  "OMP_NUM_THREADS": 1,
+  "failures": []
+}

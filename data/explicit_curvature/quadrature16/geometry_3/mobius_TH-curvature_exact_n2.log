@@ -1,0 +1,12 @@
+[mobius n=2 TH-curvature exact] cells=64 dofs=944 hmax=1.1860 setup=0.1s
+k=  1 a=      10 S=       10 nwt= 6 inc=2.812e+00 eu=9.318e-02 eg=7.517e-01 einf=4.280e-02 maxu=0.95721 |psi|rms=5.862e+00 |Z.n|=6.832e-03 ||Z.n|-|2H|u|=9.959e-01 |grad(u-uh)|=2.741e-01
+k=  2 a=      20 S=       30 nwt= 4 inc=7.976e-02 eu=1.343e-02 eg=3.974e-01 einf=6.256e-03 maxu=0.99375 |psi|rms=1.769e+01 |Z.n|=6.977e-03 ||Z.n|-|2H|u|=1.022e+00 |grad(u-uh)|=4.086e-02
+k=  3 a=      40 S=       70 nwt= 3 inc=1.058e-02 eu=2.856e-03 eg=1.911e-01 einf=1.346e-03 maxu=0.99867 |psi|rms=4.144e+01 |Z.n|=7.014e-03 ||Z.n|-|2H|u|=1.026e+00 |grad(u-uh)|=8.974e-03
+k=  4 a=      80 S=      150 nwt= 3 inc=2.205e-03 eu=6.540e-04 eg=6.240e-02 einf=3.142e-04 maxu=0.99970 |psi|rms=8.893e+01 |Z.n|=7.076e-03 ||Z.n|-|2H|u|=1.026e+00 |grad(u-uh)|=2.517e-03
+k=  5 a=     160 S=      310 nwt= 2 inc=5.069e-04 eu=1.607e-04 eg=1.805e-02 einf=7.628e-05 maxu=0.99993 |psi|rms=1.839e+02 |Z.n|=7.108e-03 ||Z.n|-|2H|u|=1.026e+00 |grad(u-uh)|=1.517e-03
+k=  6 a=     320 S=      630 nwt= 2 inc=1.199e-04 eu=7.686e-05 eg=8.777e-03 einf=1.995e-05 maxu=0.99999 |psi|rms=3.736e+02 |Z.n|=7.120e-03 ||Z.n|-|2H|u|=1.026e+00 |grad(u-uh)|=1.439e-03
+k=  7 a=     640 S=     1270 nwt= 2 inc=2.903e-05 eu=7.357e-05 eg=7.851e-03 einf=6.320e-06 maxu=1.00000 |psi|rms=7.528e+02 |Z.n|=7.129e-03 ||Z.n|-|2H|u|=1.026e+00 |grad(u-uh)|=1.434e-03
+k=  8 a=1.28e+03 S=     2550 nwt= 2 inc=7.111e-06 eu=7.449e-05 eg=7.803e-03 einf=8.020e-06 maxu=1.00001 |psi|rms=1.510e+03 |Z.n|=7.150e-03 ||Z.n|-|2H|u|=1.026e+00 |grad(u-uh)|=1.434e-03
+k=  9 a=2.56e+03 S=     5110 nwt= 2 inc=1.712e-06 eu=7.482e-05 eg=7.858e-03 einf=8.814e-06 maxu=1.00001 |psi|rms=3.033e+03 |Z.n|=7.217e-03 ||Z.n|-|2H|u|=1.026e+00 |grad(u-uh)|=1.433e-03
+k= 10 a=4.89e+03 S=    1e+04 nwt= 1 inc=1.031e-06 eu=7.503e-05 eg=7.929e-03 einf=9.262e-06 maxu=1.00001 |psi|rms=5.978e+03 |Z.n|=7.289e-03 ||Z.n|-|2H|u|=1.026e+00 |grad(u-uh)|=1.433e-03
+done: outer=10 newton=27 time=0.2s

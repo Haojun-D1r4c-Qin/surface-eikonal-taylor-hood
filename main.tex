@@ -36,8 +36,8 @@
  frame=single,rulecolor=\color{black!15},framesep=5pt,
  columns=fullflexible,keepspaces=true,showstringspaces=false,
  breaklines=true,breakatwhitespace=true,tabsize=4}
-\hypersetup{pdftitle={LVPP for Eikonal equations: Taylor-Hood formulations},pdfauthor={Haojun Qin}}
-\title{Surface Eikonal equations:
+\hypersetup{pdftitle={LVPP for eikonal equations: Taylor-Hood formulations},pdfauthor={Haojun Qin}}
+\title{Surface eikonal equations:
 Taylor--Hood formulations}
 \author{Haojun Qin, Brendan Keith}
 \date{}
@@ -47,11 +47,11 @@ Taylor--Hood formulations}
 
 \begin{abstract}
 This note aims to correct the application of formulation (5.5) in
-\cite{lvpp} to the Eikonal equation on the M\"obius strip in
+\cite{lvpp} to the eikonal equation on the M\"obius strip in
 Example~9, using the implementation in \cite{upstream} as a reference.
 The original Taylor--Hood formulation omits an additional
 curvature term arising from surface integration by parts. This omission
-makes the formulation inconsistent with the Eikonal equation
+makes the formulation inconsistent with the eikonal equation
 whenever the curvature coupling is nonzero.
 We derive the corrected weak formulation and compare the original and
 corrected implementations. Numerical experiments on the M\"obius strip
@@ -64,7 +64,7 @@ to the exact solution.
 \section{Problem setting and notation}
 \label{sec:notation}
 
-Let $\G\subset\R^3$ be a compact, connected $C^2$ surface with nonempty boundary $\partial\G$. We consider the Eikonal problem
+Let $\G\subset\R^3$ be a compact, connected $C^2$ surface with nonempty boundary $\partial\G$. We consider the eikonal problem
 \begin{equation}
   |\gradG u|=1\quad\hbox{in }\G\setminus\partial\G,
   \qquad u=0\quad\hbox{on }\partial\G.
@@ -450,7 +450,7 @@ with inequality constraints}, Computer Methods in Applied Mechanics and
 Engineering \textbf{445} (2025), 118181.
 \href{https://doi.org/10.1016/j.cma.2025.118181}{doi:10.1016/j.cma.2025.118181}.
 \bibitem{upstream}
-METHODS Group, \emph{Proximal Galerkin}, public DOLFINx Eikonal example,
+METHODS Group, \emph{Proximal Galerkin}, public DOLFINx eikonal example,
 \href{https://github.com/METHODS-Group/ProximalGalerkin/blob/main/examples/09_eikonal/eikonal_dolfinx.py}{\code{examples/09\_eikonal/eikonal\_dolfinx.py}}.
 \bibitem{ufl}
 FEniCS Project, UFL source documentation:

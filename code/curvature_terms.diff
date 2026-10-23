@@ -1,0 +1,12 @@
+--- TH_residual.py
++++ TH_curvature_residual.py
+@@ -4,4 +4,9 @@
+     + (ufl.div(psi) - ufl.div(psi_old)) * v * dx
+     + self.alpha * v * dx
+ )
++if disc == "TH-curvature":
++    # Keep the ORIGINAL divergence residual and boundary handling.
++    # Add the two negative curvature terms explicitly.
++    F -= u * ufl.dot(curvature_vector, tau) * dx
++    F -= v * ufl.dot(curvature_vector, psi - psi_old) * dx
+ self.bcs = []
